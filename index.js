@@ -56,7 +56,6 @@ document.addEventListener('click', event => {
       fruits = fruits.filter(f => f.id !== id)
       render();
     }).catch(() => {
-      console.log('cancel')
     })
   }
 })
